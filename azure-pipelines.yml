@@ -13,7 +13,7 @@ pool:
 strategy:
   matrix:
     Python27:
-      python.version: '2.7'
+      python.version: '3.13'
 
 steps:
 - task: UsePythonVersion@0
